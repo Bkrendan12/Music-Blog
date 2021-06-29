@@ -1,0 +1,46 @@
+<div class="row">
+    <div class="col-auto">
+        <h1>{{name}}</h1>
+        <p>
+            {{description}}
+        </p>
+        <h4>
+            {{user.name}}
+        </h4>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-auto">
+        <div>
+            <button class='toggler-funding'>
+                Add Comment
+            </button>
+        </div>
+        <form class="toggle-funding new-funding-form">
+            <textarea id="funding-desc"></textarea>
+            <input type="hidden" id="project-id" value={{id}}>
+            <button>
+                Add Comment
+            </button>
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-auto">
+        {{#each comments}}
+            <h4>{{user.name}}</h4>
+            <p>{{description}}</p>
+            {{#if belongsTo}}
+            <div class="col-md-4">
+                <button class="btn btn-sm btn-danger btn-delete" data-id="{{id}}">
+                    Delete 
+                </button>
+            </div>
+            {{/if}}
+        {{/each}}
+
+    </div>
+</div>
+
+<script src="/js/project.js"></script>

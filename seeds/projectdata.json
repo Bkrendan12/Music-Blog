@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Folk Album",
+    "description": "Typically a one man project with minimal instruments and very straight forward composition formulas which are easy to follow to the listener. There isn't a lot of editing or behind the scenes producing and usually very organic sounding. These kind of albums can be recorded in a week sometimes if the artist desires a natural organic sound.",
+    "needed_funding": 2000
+  },
+  {
+    "name": "Neo-soul/ R&B album",
+    "description": "Neo soul / R&B albums have a lot of production involved and usually very midi-based where the body of the song to start with will involve real drums, synths and vocals surrounded by a lot of harmonies creating a beautiful head space which is usually soothing to the listener's ear. These take a lot more time to record and mix, so the main focus in the studio will be to create an atmosphere that is soft and vibey to the listener.",
+    "needed_funding": 10000
+  },
+  {
+    "name": "Post-Rock Album",
+    "description": "A full band with typical drums, two guitarists, a vocalist and a bass player. These kinds of albums include heavy drums, deep and gritty bass, simple vocals and minimal vocals and lots of delay and reverb on guitars which creates a very atmospheric sound. These albums involve a lot of simple rock instruments and sometimes synth and sequencing to compliment the atmosphere the band is trying to create. These albums could take up to 3 months to record, mix and make radio ready.",
+    "needed_funding": 8000
+  }
+]
