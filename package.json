@@ -15,9 +15,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bkrendan12/Tech-Blog/issues"
+    "url": "https://github.com/Bkrendan12/Music-Genre-Blog/issues"
   },
-  "homepage": "https://github.com/Bkrendan12/Tech-Blog#readme",
+  "homepage": "https://github.com/Bkrendan12/Music-Genre-Blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.1",
@@ -27,5 +27,6 @@
     "express-session": "^1.17.2",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.2"
-  }
+  },
+  "devDependencies": {}
 }
